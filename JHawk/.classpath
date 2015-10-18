@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="Distro/lib/webcam-capture-0.3.10-RC6.jar"/>
+	<classpathentry kind="lib" path="Distro/lib/bridj-0.7-20131007.003529-54.jar"/>
+	<classpathentry kind="lib" path="Distro/lib/customizer.jar"/>
+	<classpathentry kind="lib" path="Distro/lib/jmf.jar"/>
+	<classpathentry kind="lib" path="Distro/lib/mail.jar"/>
+	<classpathentry kind="lib" path="Distro/lib/mediaplayer.jar"/>
+	<classpathentry kind="lib" path="Distro/lib/multiplayer.jar"/>
+	<classpathentry kind="lib" path="Distro/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
