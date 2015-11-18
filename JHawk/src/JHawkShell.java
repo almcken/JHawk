@@ -129,6 +129,10 @@ public class JHawkShell {
 		
 		
 		webcam = Webcam.getDefault();
+		if (webcam == null) {
+			System.out.println("NO WEBCAM FOUND. Please check usb connections and make sure the drivers are installed");
+			System.exit(0);
+		}
 		webcam.setViewSize(WebcamResolution.VGA.getSize());
 		
 		WebcamMotionDetector detector = new WebcamMotionDetector(Webcam.getDefault());
